@@ -1,0 +1,122 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Examples:
+# .env
+# .env.dev
+# .env.local
+# .env.production
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Database
+# ==========================================
+
+*.db
+*.sqlite3
+
+# ==========================================
+# FastAPI
+# ==========================================
+
+.fastapi/
+
+# ==========================================
+# Docker
+# ==========================================
+
+docker-data/
+docker-volumes/
+
+# ==========================================
+# Node / React Frontend
+# ==========================================
+
+node_modules/
+
+frontend/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build artifacts
+frontend/build/
+frontend/dist/
+dist/
+
+# ==========================================
+# Redis
+# ==========================================
+
+dump.rdb
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+
+*.swp
+*.swo
