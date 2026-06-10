@@ -14,3 +14,4 @@ class TaskStatus(str, Enum):
 class QueryResponse(BaseModel):
     job_id: str
     status: TaskStatus
+

@@ -1,1 +1,0 @@
-# Hi this is the db of the postgre backend proj

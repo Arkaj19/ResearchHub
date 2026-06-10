@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from models.research_model import TaskStatus,QueryResponse,ResearchQuery
+from services.research_service import gen_research_job
 
 router = APIRouter()
 
@@ -9,7 +10,10 @@ def hello():
 
 @router.post("/research", response_model=QueryResponse)
 def create_research_job(query: ResearchQuery):
+
+    job_id = gen_research_job()
+
     return QueryResponse(
-        job_id="ABC1234",
+        job_id=job_id,
         status=TaskStatus.RUNNING
     )
