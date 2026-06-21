@@ -60,3 +60,6 @@ class ResearchJobResponse(BaseModel):
     class Config:
         from_attributes = True   # allows SQLAlchemy ORM objects to be passed directly
         populate_by_name = True  # allows both 'id' and 'job_id' to be used
+
+
+c
